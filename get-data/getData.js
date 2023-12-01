@@ -24,4 +24,4 @@ async function getData(userId) {
   }
 }
 
-export default fetchData;
+export default getData;
