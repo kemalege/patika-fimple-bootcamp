@@ -3,9 +3,11 @@
 import { useTodoStore } from "../store/todoStore"
 
 
+// Custom hook for managing todos
 export default function useTodos() {
     
     const todoStore = useTodoStore(state => ({
+        // Todo state and actions
         todos: state.todos,
         addTodo: state.addTodo,
         editTodo: state.editTodo,
