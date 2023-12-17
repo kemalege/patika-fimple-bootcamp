@@ -1,0 +1,3 @@
+[submodule "publish-react-library/pumba-ui"]
+	path = publish-react-library/pumba-ui
+	url = https://github.com/kemalege/pumba-ui.git
